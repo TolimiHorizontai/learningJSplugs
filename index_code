@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+		
+	<meta charset="utf-8"> 		
+	<meta name="viewport" content="width=device-width, initial-scale=1">  <!--responsive design tagas-->		
+	<title>Tolijauta</title>				
+	<link rel="stylesheet" href="assets/css/style.css">
+			
+</head>
+
+<body>
+
+	<?php date_default_timezone_set('Europe/Vilnius');?> 
+
+	<div id="particles-js">
+
+	<div class="container">
+	
+		<div class="isorinis">
+			<div class="box">
+				<p class="text">
+				</p>
+			</div>
+		</div>
+
+	
+							
+	  <script type="text/javascript" src="assets/scripts/particles.js"></script>
+	  <script type="text/javascript" src="assets/scripts/app.js"></script>
+	  <script type="text/javascript" src="assets/scripts/typed.js"></script>
+	  <script type="text/javascript">
+	
+		  var typed = new Typed(".text", {
+				  strings: ["Žiemos rūpesčiai",
+				  "Ant žiemos narsai jau vėl rūstaudami grįžta,",
+			  	"Ir šiaurys pasišiaušęs vėl mus atlekia gandint.",				
+				    "(K. Donelaitis)",
+			  	],
+				  typeSpeed: 90,
+				  backDelay: 500,
+				  loop: true
+	  	});
+		
+	  </script>
+	</div>
+</div>
+</body>
+
+</html>
